@@ -1,0 +1,167 @@
+body {
+    background-color: #202020;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+header {
+    background-color: #4585CC;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+
+h1,h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #efefef;
+    color: #4585CC;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+button {
+    border: none;
+    margin: 0;
+    background-color: #efefef;
+    font-size: 16px;
+    outline: none;
+}
+
+button:hover {
+    color: white;
+    background-color: #4585CC;
+    cursor: pointer;
+}
+
+.highlight {
+    color: white;
+    background-color: #4585CC;
+}
+
+.highlight:hover {
+    cursor: default;
+}
+
+main {
+    background-color: #202020;
+    padding:2% 0;
+}
+
+.square {
+    background-color: white;
+    margin: 1.5%;
+    padding: 0;
+    width: 30.33%;
+    padding-top: 31.33%;
+    border-radius: 12%;
+    -webkit-transition: box-shadow 0.5s, opacity 0.4s;
+    -moz-transition: box-shadow 0.5s, opacity 0.4s;
+    -o-transition: box-shadow 0.5s, opacity 0.4s;
+    transition: box-shadow 0.5s, opacity 0.4s;
+}
+
+.square:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 30px #FFFFFF;
+    -moz-box-shadow: 0px 0px 30px #FFFFFF;
+    box-shadow: 0px 0px 30px #FFFFFF;
+}
+
+.disappear {
+    opacity: 0;
+}
+
+.disappear:hover {
+    cursor: default;
+}
+
+.progress {
+    margin: 20px auto;
+    padding: 0 1.5%;
+    height: 30px;
+    width: 100%;
+    background-color: #efefef;
+}
+
+.progress:hover {
+    cursor: pointer;
+}
+
+#score {
+    width: 100%;
+    color: seashell;
+    font-size: 16px;
+    padding-top: 1%;
+    padding-bottom: 0%;
+}
+
+#score:hover {
+    opacity: 0.8;
+}
+
+#game_idea_info {
+    color: green;
+    text-align: center;
+    font-size: 12px;
+}
+
+a:link, a:visited {
+    color: green;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    cursor: pointer;
+    opacity: 0.8;
+    color: green;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .square {
+        width: 40%;
+        margin-left: 5%;
+        padding-top: 40%;
+    }
+
+    h2 {
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    main {
+        padding:4% 0;
+    }
+}
+
